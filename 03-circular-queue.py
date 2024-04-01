@@ -18,10 +18,10 @@ class CircularQueue:
     self.front = 0
     self.rear = 0
   
-  def isEmpty(self):
+  def is_empty(self):
     return self.front == self.rear
   
-  def isFull(self):
+  def is_full(self):
     return self.front == (self.rear + 1) % self.max_size
   
   def enqueue(self, el):
