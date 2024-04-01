@@ -44,7 +44,7 @@ class LinkedList:
       print(cur.val, end=' ')
       cur = cur.next
   
-  def searchFromHead(self, val):
+  def search_from_head(self, val):
     node = self.head.next
     cnt = 0
     
@@ -57,7 +57,7 @@ class LinkedList:
     
     print('not found')
   
-  def searchFromTail(self, val):
+  def search_from_tail(self, val):
     node = self.tail.prev
     cnt = -1
     
